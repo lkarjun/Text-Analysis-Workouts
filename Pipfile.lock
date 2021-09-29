@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b31e66ba2f09dfbce8b417401984de194fa02ddd33e21ffda64d1b7af94040d4"
+            "sha256": "9642239c10af0c0d3592cbdd4ec9a55c839f289dc92da73d6673083430455ff9"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -601,11 +601,11 @@
         },
         "jupyter-client": {
             "hashes": [
-                "sha256:0b18f85dfc4b2c48ee65ccd7d57382d151ecb8469cedde0138b7294c1a747d46",
-                "sha256:67aaadbbbb022cd481146924e5911b56863177456aaf5622049c96ae384edc06"
+                "sha256:124a6e6979c38999d9153b1c4d1808c4c820a45066d5ed1857a5b59c04ffccb3",
+                "sha256:382aca66dcaf96d7eaaa6c546d57cdf8b3b1cf5bc1f2704c58a1d8d244f1163d"
             ],
             "markers": "python_full_version >= '3.6.1'",
-            "version": "==7.0.4"
+            "version": "==7.0.5"
         },
         "jupyter-core": {
             "hashes": [
@@ -1640,6 +1640,14 @@
             ],
             "markers": "python_version < '3.10' and python_version >= '3.7'",
             "version": "==1.7.1"
+        },
+        "seaborn": {
+            "hashes": [
+                "sha256:85a6baa9b55f81a0623abddc4a26b334653ff4c6b18c418361de19dbba0ef283",
+                "sha256:cf45e9286d40826864be0e3c066f98536982baf701a7caa386511792d61ff4f6"
+            ],
+            "index": "pypi",
+            "version": "==0.11.2"
         },
         "send2trash": {
             "hashes": [
