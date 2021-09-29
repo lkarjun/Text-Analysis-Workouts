@@ -12,6 +12,7 @@ matplotlib = "*"
 textacy = "*"
 sklearn = "*"
 spacy = "*"
+dvc = "*"
 
 [dev-packages]
 
