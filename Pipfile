@@ -13,6 +13,8 @@ textacy = "*"
 sklearn = "*"
 spacy = "*"
 dvc = "*"
+jupyterlab = "*"
+ipykernel = "*"
 
 [dev-packages]
 
