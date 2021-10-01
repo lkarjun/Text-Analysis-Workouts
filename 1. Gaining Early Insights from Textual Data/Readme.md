@@ -23,3 +23,19 @@ SOURCE TEXT ==> CASE-FOLDING ==> TOKENIZATION ==> STOPWORD REMOVAL ==> PREPARED 
   * WHY REMOVING STOP WORDS CAN BE DANGEROUS:
     Stop word removal is a coarse-grained rule-based method. Be careful with the stop word lists you are using, and make sure that you don’t delete valuable information. Look at this simple example: “I don’t like ice cream.”
     Both NLTK and spaCy have I and don’t (same as do not) in their stop word lists. If you remove those stop words, all that’s left is like ice cream. This kind of preprocessing would heavily distort any kind of sentiment analysis. TF-IDF weighting, as introduced later in this section, automatically underweighs frequently occurring words but keeps those terms in the vocabulary.
+
+## N-Grams
+
+* Two types of word sequences: compound and collections
+  * A ```compound``` is a combination of two or more words with a specific meaning.
+    * example ```self-confident```
+  * ```Collocations``` are words that are frequently used together.
+    * example ```united nations```
+
+* unigrams : Sequence of len(single word)->1
+* bigrams : Sequence of len->2
+* trigrams : Sequence of len->3
+
+```The reason to stick to n ≤ 3 is that the number of different n-grams increases exponentially with respect to n, while their frequencies decrease in the same way```
+
+It is advisable to build bigrams without stop words. If we remove the stop words first and then build the bigrams, we generate bigrams that don't exist in the original text.
