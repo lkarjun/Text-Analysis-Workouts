@@ -16,6 +16,8 @@ dvc = "*"
 jupyterlab = "*"
 ipykernel = "*"
 seaborn = "*"
+pexpect = "*"
+colorama = "*"
 
 [dev-packages]
 
