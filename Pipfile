@@ -18,6 +18,7 @@ ipykernel = "*"
 seaborn = "*"
 pexpect = "*"
 colorama = "*"
+tweepy = "*"
 
 [dev-packages]
 
