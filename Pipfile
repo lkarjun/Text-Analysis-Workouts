@@ -19,6 +19,7 @@ seaborn = "*"
 pexpect = "*"
 colorama = "*"
 tweepy = "*"
+ipywidgets = "*"
 
 [dev-packages]
 
