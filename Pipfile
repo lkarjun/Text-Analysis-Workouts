@@ -20,6 +20,7 @@ pexpect = "*"
 colorama = "*"
 tweepy = "*"
 ipywidgets = "*"
+scipy = "*"
 
 [dev-packages]
 
