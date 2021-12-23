@@ -22,6 +22,8 @@ tweepy = "*"
 ipywidgets = "*"
 scipy = "*"
 lime = "*"
+eli5 = "*"
+anchor-exp = "*"
 
 [dev-packages]
 
