@@ -21,6 +21,7 @@ colorama = "*"
 tweepy = "*"
 ipywidgets = "*"
 scipy = "*"
+lime = "*"
 
 [dev-packages]
 
